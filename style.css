@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 50%;
+    width: 80%;
+    padding: 10vh 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 20px;
+    padding: 2vw 2vw;
+}
+.box p{
+    padding: 5vw 5vw;
+    background-color: aquamarine;
+    border: solid 2px black;
+    font-size: 15px;
+}
